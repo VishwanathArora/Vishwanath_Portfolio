@@ -32,7 +32,6 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #1976d2;
     color: white;
     font-weight: 600;
   }
@@ -287,6 +286,36 @@
     }
   }
 
-  .example-spacer {
-    flex: 1 1 auto;
+  .newline   {
+    white-space: pre-line;
+    color: #1976d2;
+  }
+
+  .section-2-design {
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+  .intro-container  {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .section-1 {
+    padding: 20vmin 0vmin;
+    /* background: url("src/assets/img/home-image.jpg"); */
+    /* background: linear-gradient(to bottom, #dd2476, #ff512f); */
+  }
+
+  .mat-card-design  {
+    border: 0px !important;
+  }
+  
+    
+  * {
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: -moz-none;
+      -o-user-select: none;
+      user-select: none;
   }
