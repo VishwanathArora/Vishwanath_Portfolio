@@ -1,0 +1,18 @@
+.about-body {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.mail-body  {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+.about-heading  {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
