@@ -9,6 +9,7 @@ import { Testimonials } from './../classes/testimonials'
 export class HomeComponent implements OnInit {
 
   constructor(private cdRef:ChangeDetectorRef) { 
+    console.log("home");
     // this.getScreenSize();
   }
 
@@ -20,6 +21,8 @@ export class HomeComponent implements OnInit {
   
 
   ngOnInit(): void {
+    console.log("home");
+
     console.log(this.currentTestimonial,"a");
     this.assignReviews();
     console.log(this.currentTestimonial,"b");
