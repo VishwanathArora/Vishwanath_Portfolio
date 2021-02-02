@@ -65,6 +65,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.showSearchPane = false;
+
   }
 
   ngOnDestroy() {

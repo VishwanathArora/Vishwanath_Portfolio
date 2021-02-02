@@ -1,7 +1,7 @@
 <div>
     <!-- style="background-color: white" column: stacking ur children vertically -->
-    <div class="container-fluid">
-
+    <div class="container-fluid p-2">
+        <hr/>
         <div class="row m-4">
             <div class="col-sm-12 col-md-2 col-lg-2 col-lg-offset-2">
                 <!-- <div class="about-heading"> About Me </div> -->
@@ -10,46 +10,82 @@
             </div>
         </div>
 
-        <div class="row m-5">
-            <div class="about-body col-sm-1 col-md-2 col-lg-6 col-lg-offset-2">
+        <div class="row ml-5">
+            <div class="about-body col-sm-12 col-md-6 col-lg-6 ">
 
                {{basicInfo}}
-               <p>{{contactInfo}}</p>
                <p>{{designation}}</p>
+               <p>{{contactInfo}}</p>
+
 
             </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+
+                <img src = "assets/img/cover-photo.jpg" class="img-responsive fit-cover-image"/>
+ 
+             </div>
         </div>
-        <div class="row m-5">
-            <div class = "col-sm-1 col-md-2 col-lg-2">
+        <div class="row ml-5">
+            <div class = "col-sm-12 col-md-1 col-lg-1">
 
                 <i class="material-icons md-24">mail</i>
                 
              </div>
-             <div class = "mail-body col-sm-1 col-md-1 col-lg-3">
-
-                {{ mail }}
-                
-            </div> 
+            <div class = "col-sm-12 col-md-3 col-lg-3">
+                <div class="about-body">
+                    {{ mail }}
+                </div> 
+            </div>
 
         </div>
-        <div class="w-100"></div>
     </div>
-    <div class="container-fluid">
-        <div class="row m-5">
+    <div class="container-fluid pl-2">
+        <div class="row ml-5 mt-0">
     
-            <div class = "col-sm-1 col-md-2 col-lg-2">
+            <div class = "col-sm-12 col-md-1 col-lg-1">
     
-                <i class="material-icons md-24">location_on</i>
-                
+                <i class="material-icons md-24">location_on</i>   
+
             </div>
-            <div class = "about-body col-sm-1 col-md-1 col-lg-3">
-    
-                {{ location }}
-            
+            <div class = "col-sm-12 col-md-3 col-lg-3">
+                <div class="about-body">
+                    {{ location }}
+                </div> 
             </div>
-    
         </div> 
     
     </div> 
+
+    <div class="container-fluid">
+
+        <div class="row m-4">
+            <div class = "col-sm-1 col-md-2 col-lg-2">
+    
+                <div class="about-heading"> On Web </div>
+                
+            </div>
+        </div>
+
+        <div class="row m-5">
+            <div class = "col-sm-12 col-md-1 col-lg-2">
+    
+                <a href = "https://www.linkedin.com/in/vishwanath-arora"><i class="fab fa-linkedin fa-2x fa-cog" aria-hidden="true" > Linkedin</i> </a>
+            
+            </div>
+
+            <div class = "col-sm-12 col-md-1 col-lg-2">
+    
+                <a href = "https://github.com/VishwanathArora"><i class="fab fa-github fa-2x fa-cog" aria-hidden="true" > GitHub</i></a>
+            
+            </div>
+
+            <div class = "col-sm-12 col-md-1 col-lg-2">
+    
+                <a href = "https://blog.agribazaar.com/team-page/"><img src="assets/img/agribazaar-logo.svg" /></a>
+            
+            </div>
+            
+        </div>
+    </div>
 </div>
 

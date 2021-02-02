@@ -311,6 +311,22 @@
     border: 0px !important;
   }
   
+  .main-gradient  {
+    background: linear-gradient(to bottom, #dd2476, #ff512f);
+  }
+
+  .heading-font {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .detail-class {
+    color: #808080;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 400;
+
+  }
     
   * {
       -webkit-user-select: none;

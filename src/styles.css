@@ -7,4 +7,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 body{
     margin: 0%;
 }
+hr {
+    margin-bottom: 1rem;
+    border: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+.web-design {
+  background:linear-gradient(-87deg, white 60%, whitesmoke 100%);
+  /* background:linear-gradient(-97deg, white 10%,rgb(0, 190, 255) 100%, rgb(0, 198, 255)); */
+
+}
 /* @import "~bootstrap/dist/css/bootstrap.css"; */
