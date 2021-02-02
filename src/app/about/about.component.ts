@@ -11,7 +11,7 @@ export class AboutComponent implements OnInit {
 
   public designation : string  = "Currently I'm working for Star Agribazaar Technology Limited as a Full stack developer.";
 
-  public contactInfo : string = "For business inquiries feel free to get in touch with me at .";
+  public contactInfo : string = "For Inquiries feel free to get in touch with me at :";
 
   public mail : string = "vishwanatharoraengineer@gmail.com";
 

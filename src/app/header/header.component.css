@@ -56,8 +56,26 @@ button{
 }
 
 hr {
-  margin-top: 1rem;
   margin-bottom: 1rem;
-  border: 0;
+  border: 1;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.text-design  {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #FFFFFF;
+  /* background: rgba(6, 49, 192, 0.815); */
+  z-index: 9999;
+  transition: all 1.5s ease;
+  
+  /* background:linear-gradient(-97deg, white 10%,rgb(0, 190, 255) 100%, rgb(0, 198, 255)); */
+
 }
