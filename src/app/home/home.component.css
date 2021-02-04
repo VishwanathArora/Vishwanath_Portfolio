@@ -363,6 +363,17 @@
 .container:hover .overlay {
   opacity: 1;
 }
+
+hr {
+  /* margin-bottom: 2rem; */
+  border: 1;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.example-header-image {
+  background-image: url('src/assets/img/blank-photo.png');
+  background-size: cover;
+}
     
   * {
       -webkit-user-select: none;
